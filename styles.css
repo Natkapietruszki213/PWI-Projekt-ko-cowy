@@ -120,6 +120,7 @@ body{
 }
 .cookie button {
     border: none;
+    margin: 10px;
     padding: 5px 10px;
     background-color: #4CAF50;
     color: white;
