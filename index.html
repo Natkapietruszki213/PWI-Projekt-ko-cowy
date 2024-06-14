@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Taylor Swift</title>
+</head>
+<body>
+    <div class="top">
+        <img src="Images/tay6.jpg" alt="zdjęcie Taylor">
+        <h1>Taylor Swift</h1>
+    </div>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('pl')">Polski</button>
+    <div class="menu">
+        <button id="biography_button" onclick="showSection('biography')"></button>
+        <button id="albums_button" onclick="showSection('albums')"></button>
+        <button id="tour_button" onclick="showSection('tour')"></button>
+    </div>
+    <div class="page">
+        <div class="section" id="albums">
+            <div class="albums" >
+                <div class="album">
+                    <img src="Images/ttpd.jpg" alt="Ttpd">
+                    <div class="title">The Tortured Poets Department</div>
+                </div>
+                <div class="album">
+                    <img src="Images/midnights.jpg" alt="Midnights">
+                    <div class="title">Midnights</div>
+                </div>
+                <div class="album">
+                    <img src="Images/evermore.jpg" alt="Evermore">
+                    <div class="title">Evermore</div>
+                </div>
+                <div class="album">
+                    <img src="Images/folklore.jpg" alt="Folklore">
+                    <div class="title">Folklore</div>
+                </div>
+                <div class="album">
+                    <img src="Images/1989.jpg" alt="1989">
+                    <div class="title">1989</div>
+                </div>
+                <div class="album">
+                    <img src="Images/lover.jpg" alt="Lover">
+                    <div class="title">Lover</div>
+                </div>
+                <div class="album">
+                    <img src="Images/reputation.jpg" alt="Reputation">
+                    <div class="title">Reputation</div>
+                </div>
+                <div class="album">
+                    <img src="Images/red.jpg" alt="Red">
+                    <div class="title">Red</div>
+                </div>
+                <div class="album">
+                    <img src="Images/speaknow.jpg" alt="Speak Now">
+                    <div class="title">Speak Now</div>
+                </div>
+                <div class="album">
+                    <img src="Images/fearless.jpg" alt="Fearless">
+                    <div class="title">Fearless</div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="section" id="biography">
+            <div class="bio-section">
+                <div class="text">
+                    <h3 id="earlyLife"></h3>
+                    <p id="earlyLife_info"></p>
+                </div>
+                <div class="img-container">
+                    <img src="Images/tay10.jpg" class="img2" alt="zdjęcie Taylor">
+                </div>
+            </div>
+
+            <div class="bio-section">
+                <div class="text">
+                    <h3 id="musicCareer"></h3>
+                    <p id="musicCareer_info"></p>
+                </div>
+                <div class="img-container">
+                    <img src="Images/tay12.jpg" class="img2" alt="zdjęcie Taylor">
+                </div>
+            </div>
+            <div class="bio-section">
+                <div class="text">
+                    <h3 id="awards"></h3>
+                    <p id="awards_info"></p>
+                </div>
+                <div class="img-container">
+                    <img src="Images/tay9.jpg"  class="img2" alt="zdjęcie Taylor">
+                </div>
+            </div>
+            <div class="bio-section">
+                <div class="text">
+                    <h3 id="charity">Działalność charytatywna</h3>
+                    <p id="charity_info"></p>
+                </div>
+                <div class="img-container">
+                    <img src="Images/tay13.jpg" class="img2" alt="zdjęcie Taylor">
+                </div>
+            </div>
+        </div>
+        <div class="section"  id="tour">
+            <div class="photos_container">
+                    <img src="Images/era3.jpg" alt="zdjęcie Taylor">
+                    <img src="Images/era4.jpg" alt="zdjęcie Taylor">
+                    <img src="Images/era5.jpg" alt="zdjęcie Taylor">
+                    <img src="Images/era2.jpg" alt="zdjęcie Taylor">
+                    <img src="Images/era1.jpg" alt="zdjęcie Taylor">
+            </div> 
+            <div class="gallery_buttons">
+                <button id="prev" class="prev_button" onclick="prevPhoto()"></button>
+                <button id="next" class="next_button" onclick="nextPhoto()"></button>
+            </div>
+        </div>
+    </div>   
+    <div id="cookie" class="cookie">
+        <p id="cookies_info"></p>
+        <button id="accept_cookies_button" onclick="acceptCookies()"></button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
