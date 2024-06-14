@@ -21,15 +21,6 @@ body{
 }
 .top img{
     width:100vw;
-    opacity: 0.3;
-}
-.top h1{
-    color: white;
-    font-size: 8em;
-    bottom:-75px;
-    position: absolute; 
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-    opacity: 0.8;
 }
 .top{
     position: relative;
