@@ -1,11 +1,23 @@
 body{
     margin:0;
     font-family: Caveat;
-    background-image: url('tlo2.jpg');
+    background-image: url('Images/tlo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+}
+.lang_buttons{
+    position: absolute;
+    right:0%;
+    top:0%;
+    margin:1vw;
+}
+.lang{
+    width: 5vw;
+    padding: 0.5vw;
+    margin:0;
+    font-family: "Roboto Condensed";
 }
 .top img{
     width:100vw;
@@ -128,7 +140,7 @@ body{
     justify-content: center;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f8f9fa; 
+    background-color: #f6f8fb; 
     border-left: 5px solid #2350a576;
     font-family: "Roboto Condensed"; 
 }
@@ -142,7 +154,6 @@ body{
 }
 #biography {
     padding: 20px;
-    background-color: #ffffff; 
 }
 .section {
     display: none;

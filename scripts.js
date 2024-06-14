@@ -94,7 +94,7 @@ pl: {
     Jej decyzja o przeprowadzce do Nashville została podyktowana pragnieniem stania się częścią większej sceny muzycznej, gdzie mogłaby 
     rozwijać swoje umiejętności kompozytorskie i wykonawcze.`,
     musicCareer: "Początki kariery muzycznej",
-    music_career_info: `Debiutancki album Taylor Swift został wydany w 2006 roku i szybko zdobył uznanie w środowisku muzyki country, stając się komercyjnym sukcesem. 
+    musicCareer_info: `Debiutancki album Taylor Swift został wydany w 2006 roku i szybko zdobył uznanie w środowisku muzyki country, stając się komercyjnym sukcesem. 
     Swift nie tylko śpiewała, ale także miała znaczący wkład autorski w każdy utwór na albumie, co było rzadkością w przemyśle muzycznym, 
     zwłaszcza dla tak młodej artystki. Jej talent do opowiadania historii przez muzykę szybko przyciągnął uwagę fanów i krytyków. 
     Wyjątkowe połączenie czułości i siły w jej muzyce sprawiło, że zyskała szeroką bazę fanów. W ciągu kilku lat Taylor stała się jedną z najbardziej 
