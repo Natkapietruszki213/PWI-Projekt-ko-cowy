@@ -25,10 +25,6 @@ body{
 .top{
     position: relative;
     margin:0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
 }
 .albums {
     margin: 2vw;
@@ -218,10 +214,6 @@ body{
     transform: scale(1.05); 
 }
 @media screen and (max-width: 640px) {
-    .top h1{
-        font-size: 3em;
-        bottom:0;
-    }
     .album{
         position: static;
         display: flex;
